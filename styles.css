@@ -1,0 +1,110 @@
+#c1 {
+    background-color: rgb(245, 240, 230);
+}
+
+#c2 {
+    
+    background-image: url("bg-orbs-1.jpg");
+    color:white
+}
+
+#c3 {
+    background-color: rgb(245, 240, 230);
+}
+
+div {
+    scroll-margin-top: 46.9px;
+}
+
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    
+}
+
+li {
+    float:left;
+}
+
+li a {
+   
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar {
+    position:sticky;
+    top:0;
+    overflow:hidden;
+    background-color: white;
+    
+}
+
+#navbar a {
+    float:left;
+    display:block;
+    color:black;
+    text-align: center;
+    padding:14px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+#navbar a:active{
+    background-color: #182b49;
+}
+#navbar a:hover {
+    background-color: #182b49;
+    color: aliceblue;
+}
+.content {
+    padding: 16px
+}
+
+p {
+    font-size: 28px;
+}
+
+#top_logo {
+    max-width: 400px;
+}
+
+#c3 {
+    display: grid;
+    gap:25px;
+    grid-template-columns: auto;
+    
+}
+
+#grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: white;
+    background-color: #182b49;
+}
+
+#grid-item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: white;
+    background-color: #182b49;
+}
+
+#grid-item3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    color: white;
+    background-color: #182b49;
+}
+
+#grid-item4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    color: white;
+    background-color: #182b49;
+}
